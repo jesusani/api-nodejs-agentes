@@ -2,8 +2,9 @@
   "name": "api-nodejs",
   "version": "1.0.0",
   "description": "api con nodejs",
-  "main": "index.js",
+  "main": "./app/server.js",
   "scripts": {
+    "start": "nodemon ./app/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,5 +13,16 @@
     "js"
   ],
   "author": "jesus ramiro villegas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
