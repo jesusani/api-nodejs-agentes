@@ -1,0 +1,41 @@
+
+
+
+{
+    "title": "Agentes Electrofísicos",
+    "content": [
+        {
+            "chapter": "Introducción",
+            "details": "Breve descripción de los agentes electrofísicos y su importancia en la fisioterapia."
+        },
+        {
+            "chapter": "Tipos de Agentes Electrofísicos",
+            "subsections": [
+                {
+                    "subsection": "Ultrasonido",
+                    "details": "Descripción del ultrasonido terapéutico, sus efectos fisiológicos y sus aplicaciones clínicas."
+                },
+                {
+                    "subsection": "Estimulación Eléctrica",
+                    "details": "Tipos de corrientes eléctricas utilizadas en fisioterapia, sus efectos y aplicaciones."
+                },
+                {
+                    "subsection": "Láser",
+                    "details": "Uso del láser en fisioterapia, incluyendo sus beneficios y contraindicaciones."
+                },
+                {
+                    "subsection": "Termoterapia",
+                    "details": "Aplicaciones de la termoterapia, incluyendo la utilización de calor y frío en el tratamiento."
+                }
+            ]
+        },
+        {
+            "chapter": "Precauciones y Contraindicaciones",
+            "details": "Consideraciones importantes a tener en cuenta al utilizar agentes electrofísicos."
+        },
+        {
+            "chapter": "Protocolos de Tratamiento",
+            "details": "Ejemplos de protocolos de tratamiento utilizando diferentes agentes electrofísicos."
+        }
+    ]
+}

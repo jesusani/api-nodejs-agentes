@@ -1,0 +1,97 @@
+{
+  "posts": [
+    {
+      "fecha": "2024-07-21 14:15:43",
+      "mensaje": "Un mensaje .",
+      "error": null
+    },
+    {
+      "fecha": "2024-07-21 14:15:42",
+      "mensaje": " de que todo ha ido bien.",
+      "error": null
+    },
+    {
+      "fecha": "2024-07-21 14:15:41",
+      "mensaje": "Un mensaje todo ha ido bien.",
+      "error": null
+    },
+    {
+      "fecha": "2024-07-21 14:15:33",
+      "mensaje": "Un  bien.",
+      "error": null
+    },
+    {
+      "fecha": "2024-07-21 14:15:16",
+      "mensaje": " que genera la .",
+      "error": null
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "name": "lugara",
+      "descripcion": "mas lugares"
+    },
+    {
+      "id": 2,
+      "name": "nombre",
+      "descripcion": "description"
+    },
+    {
+      "id": 3,
+      "name": "cosas de la vida",
+      "descripcion": "mas cosas"
+    },
+    {
+      "id": 4,
+      "name": "lugara",
+      "descripcion": "mas lugares"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "jesus",
+      "email": "jesus.ani@gmail.com",
+      "password": "$2b$10$peeFIBmoX/i8R8aQhk/C6uEQtq.ocKHbAwlEZ8HiAJgmdgN8d9SsW",
+      "rol": "admin",
+      "created_at": "2024-07-21 14:15:42",
+      "updated_at": "2024-07-21 14:15:42",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjMwMDY2MDMsImV4cCI6MTcyMzAxMDIwM30.CufPdJOTx7ljclqL7ofILC39glp87b3tgVsghHKTc5M"
+    },
+    {
+      "id": 2,
+      "name": "carlos",
+      "email": "email",
+      "password": "$2b$10$peeFIBmoX/i8R8aQhk/C6uEQtq.ocKHbAwlEZ8HiAJgmdgN8d9SsW",
+      "rol": "admin",
+      "created_at": "2024-07-21 14:15:42",
+      "updated_at": "2024-07-21 14:15:42",
+      "token": "2"
+    },
+    {
+      "id": 3,
+      "name": "susnana",
+      "email": "email",
+      "password": "$2b$10$peeFIBmoX/i8R8aQhk/C6uEQtq.ocKHbAwlEZ8HiAJgmdgN8d9SsW",
+      "rol": "admin",
+      "created_at": "2024-07-21 14:15:42",
+      "updated_at": "2024-07-21 14:15:42",
+      "token": "3"
+    },
+    {
+      "id": 4,
+      "email": "jesus@jesus.es",
+      "name": "jesus",
+      "password": "$2b$10$peeFIBmoX/i8R8aQhk/C6uEQtq.ocKHbAwlEZ8HiAJgmdgN8d9SsW",
+      "rol": "",
+      "token": ""
+    },
+    {
+      "id": 5,
+      "name": "jesusramiro",
+      "password": "$2b$10$fVPO2NwDQQn0e3xRW3ZaZ.fO3/gGZ3UhJGbFIoqGyruPYIlDGBc6K",
+      "token": ""
+    }
+  ]
+}
