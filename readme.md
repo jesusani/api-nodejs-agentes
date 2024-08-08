@@ -1,6 +1,6 @@
-api con nodejs para lectura desde base de datos o json
+api con nodejs para lectura desde archivo json
 
-consultas e introducción de agentes
+consultas e introducción de agentes y pruebas
 
 prueba: 
 
@@ -10,3 +10,8 @@ rutas :
 /agentes/id
 /cervezas
 /cervezas/id
+/auth/login
+/auth/register
+/protected/
+/protected/users
+
