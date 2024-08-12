@@ -1,102 +1,60 @@
-import Cervezas from ('../models/Cervezas');
+import { request } from "express";
+import { getConnection } from "../database.js";
 
-module.exports = {
-  // https://docs.mongodb.com/v3.0/reference/operator/query/text/
-  search: function (req, res) {
-    var q = req.query.q
-    Cervezas.find({ $text: { $search: q } }, function (err, cervezas) {
-      if (err) {
-        return res.status(500).json({
-          message: 'Error en la búsqueda'
-        })
-      }
-      return res.json(cervezas)
-    })
-  },
-  list: function (req, res) {
-    Cervezas.find(function (err, cervezas) {
-      if (err) {
-        return res.status(500).json({
-          message: 'Error obteniendo la cerveza'
-        })
-      }
-      return res.json(cervezas)
-    })
-  },
-  show: function (req, res) {
-    var id = req.params.id
-    Cervezas.findOne({ _id: id }, function (err, cerveza) {
-      if (err) {
-        return res.status(500).json({
-          message: 'Se ha producido un error al obtener la cerveza'
-        })
-      }
-      if (!cerveza) {
-        return res.status(404).json({
-          message: 'No tenemos esta cerveza'
-        })
-      }
-      return res.json(cerveza)
-    })
-  },
-  create: function (req, res) {
-    var cerveza = new Cervezas(req.body)
-    cerveza.save(function (err, cerveza) {
-      if (err) {
-        return res.status(500).json({
-          message: 'Error al guardar la cerveza',
-          error: err
-        })
-      }
-      return res.status(201).json({
-        message: 'saved',
-        _id: cerveza._id
-      })
-    })
-  },
-  update: function (req, res) {
-    var id = req.params.id
-    Cervezas.findOne({ _id: id }, function (err, cerveza) {
-      if (err) {
-        return res.status(500).json({
-          message: 'Se ha producido un error al guardar la cerveza',
-          error: err
-        })
-      }
-      if (!cerveza) {
-        return res.status(404).json({
-          message: 'No hemos encontrado la cerveza'
-        })
-      }
-      cerveza.Nombre = req.body.nombre
-      cerveza.Descripción = req.body.descripcion
-      cerveza.Graduacion = req.body.graduacion
-      cerveza.Envase = req.body.envase
-      cerveza.Precio = req.body.precio
-      cerveza.save(function (err, cerveza) {
-        if (err) {
-          return res.status(500).json({
-            message: 'Error al guardar la cerveza'
-          })
+export const getCervezaById = (req, res) => {
+    const cerveza = getConnection().data.cervezas.find(cerveza => cerveza.id == req.params.id);
+    if (!cerveza) return res.sendStatus(404);
+    res.json(cerveza);
+};
+
+export const getCervezas = (req, res) => {
+    const db = getConnection();
+    res.json(db.data.cervezas);
+};
+
+export const countCervezas = (req, res) => {
+    const count = getConnection().data.cervezas.length;
+    res.json(count);
+};
+
+export const createCerveza = async (req, res) => {
+    try {
+        const db = getConnection();
+        const newcerveza = {
+            "id": 1,
+            "name": req.body.name,
+            "descripcion": req.body.description
         }
-        if (!cerveza) {
-          return res.status(404).json({
-            message: 'No hemos encontrado la cerveza'
-          })
-        }
-        return res.json(cerveza)
-      })
-    })
-  },
-  remove: function (req, res) {
-    var id = req.params.id
-    Cervezas.findByIdAndRemove(id, function (err, cerveza) {
-      if (err) {
-        return res.json(500, {
-          message: 'No hemos encontrado la cerveza'
-        })
-      }
-      return res.json(cerveza)
-    })
-  }
-}
+
+        db.data.cervezas.push(newcerveza);
+        await db.write();
+
+        console.log(req.body);
+        res.send((req.body));
+    }
+    catch (error) {
+        console.log(error);
+        res.status(500).send(error);
+    }
+};
+
+export const updateCerveza = async (req, res) => {
+    const cerveza = getConnection().data.cervezas.find(cerveza => cerveza.id == req.params.id);
+    if (!cerveza) return res.sendStatus(404);
+    cerveza.name = req.body.name;
+    cerveza.descripcion = req.body.description;
+    getConnection().data.cervezas.map(t => t.id == req.params.id ? cerveza : t);
+
+    await getConnection().write();
+    res.status(200).send(cerveza);
+};
+
+export const deleteCerveza = (req, res) => {
+    const cerveza = getConnection().data.cervezas.find(cerveza => cerveza.id == req.params.id);
+    if (!cerveza) return res.sendStatus(404);
+    const newdata = getConnection().data.cervezas.filter(cerveza => cerveza.id != req.params.id);
+    getConnection().data.cervezas = newdata;
+    res.status(200).send(cerveza);
+
+};
+

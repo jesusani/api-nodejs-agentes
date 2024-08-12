@@ -2,23 +2,15 @@
 import express from 'express';
 
 var router = express.Router();
+import { getCervezas, getCervezaById, createCerveza, updateCerveza, deleteCerveza, countCervezas } from '../controllers/CervezasController.js';
 
-router.get('/search', function(req, res) {
-  res.json({ message: 'Vas a buscar una cerveza' })
-})
-router.get('/', function(req, res) {
-  res.json({ message: 'Estás conectado a la API. Recurso: cervezas' })
-})
-router.get('/:id', function(req, res) {
-  res.json({ message: 'Vas a obtener la cerveza con id ' + req.params.id })
-})
-router.post('/', function(req, res) {
-  res.json({ message: 'Vas a añadir una cerveza' })
-})
-router.put('/:id', function(req, res) {
-  res.json({ message: 'Vas a actualizar la cerveza con id ' + req.params.id })
-})
-router.delete('/:id', function(req, res) {
-  res.json({ message: 'Vas a borrar la cerveza con id ' + req.params.id})
-})
+router.get('/', getCervezas);
+router.get('/count', countCervezas);
+router.get('/:id', getCervezaById);
+
+router.post('/', createCerveza);
+router.put('/:id', updateCerveza);
+router.delete('/:id', deleteCerveza);
+
+
 export default router

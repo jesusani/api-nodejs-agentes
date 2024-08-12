@@ -1,26 +1,31 @@
 {
-  "posts": [
+  "agentes": [
     {
+      "name": "cosas1",
       "fecha": "2024-07-21 14:15:43",
       "mensaje": "Un mensaje .",
       "error": null
     },
     {
+      "name": "cosas2",
       "fecha": "2024-07-21 14:15:42",
       "mensaje": " de que todo ha ido bien.",
       "error": null
     },
     {
+      "name": "cosas3",
       "fecha": "2024-07-21 14:15:41",
       "mensaje": "Un mensaje todo ha ido bien.",
       "error": null
     },
     {
+      "name": "cosas4",
       "fecha": "2024-07-21 14:15:33",
       "mensaje": "Un  bien.",
       "error": null
     },
     {
+      "name": "cosas5",
       "fecha": "2024-07-21 14:15:16",
       "mensaje": " que genera la .",
       "error": null
@@ -34,7 +39,7 @@
     },
     {
       "id": 2,
-      "name": "nombre",
+      "name": "name",
       "descripcion": "description"
     },
     {
@@ -46,6 +51,71 @@
       "id": 4,
       "name": "lugara",
       "descripcion": "mas lugares"
+    }
+  ],
+  "cervezas": [
+    {
+      "name": "DAMM INEDIT",
+      "Descripción": "Creada por los cerveceros de Damm junto a Ferrán Adriá y los sumilleres de El Bulli, se elabora con una mezcla de malta de cebada y trigo aromatizada con cilantro, piel de naranja y regaliz.",
+      "Graduación": "4,8º",
+      "Envase": "Botella de 75cl",
+      "Precio": "3,90€"
+    },
+    {
+      "name": "ALHAMBRA 1925",
+      "Descripción": "Con su característica botella de color verde, se trata de una cerveza extra con una graduación de 6,8º. Se distingue por su peculiar toque acaramelado y por su perfecto y refrescante amargor final.Gran cuerpo y mucho equilibrio.",
+      "Graduación": "6,8º",
+      "Envase": "Botella de 33 cl.",
+      "Precio": "1€"
+    },
+    {
+      "name": "MAHOU CINCO ESTRELLAS",
+      "Descripción": "Un auténtico clásico entre nuestras cervezas. Muy ligera y agradable, resulta especialmente refrescante. Con una ligera acidez, sabor a cebada tostada y un correcto amargor final.",
+      "Graduación": "5,5º",
+      "Envase": "Pack de 6 botellines de 25 cl.",
+      "Precio": "2,70 euros."
+    },
+    {
+      "name": "SAN MIGUEL 1516",
+      "Descripción": "Entre las varias opciones de esta marca, una de las más internacionales de las españolas, destaca esta 1516 elaborada según métodos tradicionales. Fresca, amarga y con baja graduación, lo que la hace muy agradable a cualquier hora.",
+      "Graduación": "4,2º",
+      "Envase": "Botella de 33 cl.",
+      "Precio": "0,80€"
+    },
+    {
+      "name": "CRUZ CAMPO GRAN RESERVA 1904",
+      "Descripción": "Cerveza cien por cien malta, de gran calidad. Intensa y equilibrada, con agradable final amargo. Graduación muy adecuada para acompañar cualquier tipo de comida.",
+      "Graduación": "6,4º",
+      "Envase": "Botella de 33cl",
+      "Precio": "1€"
+    },
+    {
+      "name": "VOLL DAMM",
+      "Descripción": "Elaborada con el doble de malta, lo que le proporciona un sabor muy característico, y un cuerpo intenso y peculiar, diferente de otras. Alta graduación alcohólica. Adecuada para tomar como copa.",
+      "Graduación": "7,2º",
+      "Envase": "Botella de 33cl",
+      "Precio": "1,10€"
+    },
+    {
+      "name": "ÁMBAR ESPECIAL",
+      "Descripción": "La Zaragozana es una centenaria fábrica de cervezas de la capital zaragozana. Ofrece una amplia variedad. La más atractiva es esta Especial, una lager de baja fermentación que resulta muy fácil y agradable de beber.",
+      "Graduación": "5,2º",
+      "Envase": "Botella de 33cl",
+      "Precio": "0,90€"
+    },
+    {
+      "name": "MORITZ",
+      "Descripción": "Una cerveza casi artesanal, que es una institución en Barcelona desde 1856. En su elaboración se emplean agua de un manantial de Vichy Catalán y flores de lúpulo en lugar de extractos, lo que le confiere más aroma y menos amargor.",
+      "Graduación": "5,4º",
+      "Envase": "Botella de 33cl",
+      "Precio": "1,20€"
+    },
+    {
+      "name": "BRABANTE BLANCA",
+      "Descripción": "Elaborada en Bélgica con métodos tradicionales, se puede considerar española pues la hacen empresarios madrileños para el mercado nacional. De sus variedades destaca esta blanca de trigo, ligera y suave.",
+      "Graduación": "5º",
+      "Envase": "Botella de 33cl",
+      "Precio": "1,50€"
     }
   ],
   "users": [
