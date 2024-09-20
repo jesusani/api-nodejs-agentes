@@ -4,13 +4,15 @@ import express from 'express';
 
 import router from './src/routes/index.js';
 import {createConnection} from './src/database.js';
+import {createConnectionAgentes} from './src/dbagentes.js';
 
 
 const app = express();
 app.use(cors());
 
 const port = process.env.PORT || 3000  // establecemos nuestro puerto
-createConnection();       
+createConnection();   
+createConnectionAgentes();    
 
 // nuestra ruta irá en http://localhost:3080/api1
 // es bueno que haya un prefijo, sobre todo por el tema de versiones de la API

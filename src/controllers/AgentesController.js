@@ -1,29 +1,34 @@
 import { request } from "express";
-import { getConnection } from "../database.js";
+import { getConnectionAgentes } from "../dbagentes.js";
 
 export const getAgenteById = (req, res) => {
-    const agente = getConnection().data.agentes.find(agente => agente.id == req.params.id);
+    const agente = getConnectionAgentes().data.agentes.find(agente => agente.id == req.params.id);
     if (!agente) return res.sendStatus(404);
     res.json(agente);
 };
 
 export const getAgentes = (req, res) => {
-    const db = getConnection();
+    const db = getConnectionAgentes();
     res.json(db.data.agentes);
 };
 
 export const countAgentes = (req, res) => {
-    const count = getConnection().data.agentes.length;
+    const count = getConnectionAgentes().data.agentes.length;
     res.json(count);
 };
 
 export const createAgente = async (req, res) => {
     try {
-        const db = getConnection();
+        const db = getConnectionAgentes();
         const newagente = {
-            "id": 1,
-            "name": req.body.name,
-            "descripcion": req.body.description
+            "id": req.body.id,
+            "codigo": req.body.codigo,
+            "campo": req.body.campo,
+            "energia": req.body.energia,
+            "frecuencia": req.body.frecuencia,
+            "corriente": req.body.corriente,
+            "tecnica": req.body.tecnica,
+            "agente": req.body.agente
         }
 
         db.data.agentes.push(newagente);
@@ -39,21 +44,21 @@ export const createAgente = async (req, res) => {
 };
 
 export const updateAgente = async (req, res) => {
-    const agente = getConnection().data.agentes.find(agente => agente.id == req.params.id);
+    const agente = getConnectionAgentes().data.agentes.find(agente => agente.id == req.params.id);
     if (!agente) return res.sendStatus(404);
     agente.name = req.body.name;
     agente.descripcion = req.body.description;
-    getConnection().data.agentes.map(t => t.id == req.params.id ? agente : t);
+    getConnectionAgentes().data.agentes.map(t => t.id == req.params.id ? agente : t);
 
-    await getConnection().write();
+    await getConnectionAgentes().write();
     res.status(200).send(agente);
 };
 
 export const deleteAgente = (req, res) => {
-    const agente = getConnection().data.agentes.find(agente => agente.id == req.params.id);
+    const agente = getConnectionAgentes().data.agentes.find(agente => agente.id == req.params.id);
     if (!agente) return res.sendStatus(404);
-    const newdata = getConnection().data.agentes.filter(agente => agente.id != req.params.id);
-    getConnection().data.agentes = newdata;
+    const newdata = getConnectionAgentes().data.agentes.filter(agente => agente.id != req.params.id);
+    getConnectionAgentes().data.agentes = newdata;
     res.status(200).send(agente);
 
 };
