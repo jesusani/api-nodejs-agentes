@@ -10,7 +10,7 @@ router.get('/count', countAgentes);
 router.get('/:id', getAgenteById);
 
 router.post('/', createAgente);
-router.put('/:id', updateAgente);
+router.patch('/:id', updateAgente);
 router.delete('/:id', deleteAgente);
 
 

@@ -43,11 +43,21 @@ export const createAgente = async (req, res) => {
     }
 };
 
+
+
+
 export const updateAgente = async (req, res) => {
-    const agente = getConnectionAgentes().data.agentes.find(agente => agente.id == req.params.id);
+    const { id } = req.params;
+    const updates = req.body; 
+    let agente = getConnectionAgentes().data.agentes.find(agente => agente.id == req.params.id);
     if (!agente) return res.sendStatus(404);
-    agente.name = req.body.name;
-    agente.descripcion = req.body.description;
+
+    Object.keys(updates).forEach(key => {
+        agente[key] = updates[key];  // Sobrescribir los campos existentes
+      });
+ 
+   
+
     getConnectionAgentes().data.agentes.map(t => t.id == req.params.id ? agente : t);
 
     await getConnectionAgentes().write();

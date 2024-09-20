@@ -735,11 +735,19 @@
     },
     {
       "id": 105,
-      "codigo": 11119999999,
+      "codigo": 111199,
       "campo": "Terapia",
-      "energia": "Energía ",
-      "frecuencia": " Frecuencia",
-      "corriente": "corriente "
+      "energia": "Energía Electrica",
+      "frecuencia": "Baja Frecuencia",
+      "corriente": "corriente Monofásica"
+    },
+    {
+      "id": 106,
+      "codigo": 111199,
+      "campo": "Terapia",
+      "energia": "Energía Electrica",
+      "frecuencia": "Baja Frecuencia",
+      "corriente": "corriente Monofásica"
     }
   ]
 }
