@@ -6,6 +6,41 @@ export const getAgenteById = (req, res) => {
     if (!agente) return res.sendStatus(404);
     res.json(agente);
 };
+export const getAgenteByCampo = (req, res) => {
+    const { q } = req.query;  // Captura el parámetro 'q' de la query string
+    const agentes = getConnectionAgentes().data.agentes;
+    if (!q) return res.status(404).send({ error: 'Debe proporcionar una palabra de búsqueda en el parámetro `q`' });
+    if (!agentes) return res.sendStatus(404);  
+ 
+    const filteredAgentes = agentes.filter(agente => 
+      
+       agente.energia.toLowerCase().includes(q.toLowerCase())  || 
+        agente.campo.toLowerCase().includes(q.toLowerCase()) || 
+        agente.corriente.toLowerCase().includes(q.toLowerCase()) || 
+        agente.agente.toLowerCase().includes(q.toLowerCase())|| 
+        agente.tecnica.toLowerCase().includes(q.toLowerCase())|| 
+        agente.frecuencia.toLowerCase().includes(q.toLowerCase())
+      );
+
+    if (!filteredAgentes) return res.sendStatus(404);  
+    res.json(filteredAgentes);
+};
+
+export const getAgenteByCodigo = (req, res) => {
+    const { codigo } = req.query;  // Captura el parámetro 'q' de la query string
+    const agentes = getConnectionAgentes().data.agentes;
+    if (!codigo) return res.status(404).send({ error: 'Debe proporcionar una palabra de búsqueda en el parámetro `q`' });
+    if (!agentes) return res.sendStatus(404);  
+    const codigoNumber = parseInt(codigo);
+
+    const filteredAgentes = agentes.filter(agente => 
+        agente.codigo === codigoNumber || 
+        String(agente.codigo).includes(codigo)
+      );
+
+    if (!filteredAgentes) return res.sendStatus(404);  
+    res.json(filteredAgentes);
+};
 
 export const getAgentes = (req, res) => {
     const db = getConnectionAgentes();

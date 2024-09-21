@@ -3,20 +3,32 @@
     {
       "id": 1,
       "codigo": 100000,
-      "campo": "Terapia"
+      "campo": "Terapia",
+      "energia": " ",
+      "frecuencia": " ",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 2,
       "codigo": 110000,
       "campo": "Terapia",
-      "energia": "Energía Electrica"
+      "energia": "Energía Electrica",
+      "frecuencia": " ",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 3,
       "codigo": 111000,
       "campo": "Terapia",
       "energia": "Energía Electrica",
-      "frecuencia": "Baja Frecuencia"
+      "frecuencia": "Baja Frecuencia",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 4,
@@ -24,7 +36,9 @@
       "campo": "Terapia",
       "energia": "Energía Electrica",
       "frecuencia": "Baja Frecuencia",
-      "corriente": "corriente Monofásica"
+      "corriente": "corriente Monofásica",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 5,
@@ -33,7 +47,8 @@
       "energia": "Energía Electrica",
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
-      "agente": "Corriente Galvánica"
+      "agente": "Corriente Galvánica",
+      "tecnica": " "
     },
     {
       "id": 6,
@@ -82,7 +97,8 @@
       "energia": "Energía Electrica",
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
-      "agente": "corrientes con componente Galvánico"
+      "agente": "corrientes con componente Galvánico",
+      "tecnica": " "
     },
     {
       "id": 11,
@@ -131,7 +147,8 @@
       "energia": "Energía Electrica",
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
-      "agente": "Impulsos Aislados"
+      "agente": "Impulsos Aislados",
+      "tecnica": " "
     },
     {
       "id": 16,
@@ -159,7 +176,9 @@
       "campo": "Terapia",
       "energia": "Energía Electrica",
       "frecuencia": "Baja Frecuencia",
-      "corriente": "corriente Bifásica"
+      "corriente": "corriente Bifásica",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 19,
@@ -168,7 +187,8 @@
       "energia": "Energía Electrica",
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Bifásica",
-      "agente": "TENS"
+      "agente": "TENS",
+      "tecnica": " "
     },
     {
       "id": 20,
@@ -177,7 +197,8 @@
       "energia": "Energía Electrica",
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Bifásica",
-      "agente": "NMES"
+      "agente": "NMES",
+      "tecnica": " "
     },
     {
       "id": 21,
@@ -186,14 +207,18 @@
       "energia": "Energía Electrica",
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Bifásica",
-      "agente": "Microcorrientes"
+      "agente": "Microcorrientes",
+      "tecnica": " "
     },
     {
       "id": 22,
       "codigo": 112000,
       "campo": "Terapia",
       "energia": "Energía Electrica",
-      "frecuencia": "Media Frecuencia"
+      "frecuencia": "Media Frecuencia",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 23,
@@ -201,7 +226,9 @@
       "campo": "Terapia",
       "energia": "Energía Electrica",
       "frecuencia": "Media Frecuencia",
-      "corriente": "Corrientes sin Modular"
+      "corriente": "Corrientes sin Modular",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 24,
@@ -210,7 +237,8 @@
       "energia": "Energía Electrica",
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes sin Modular",
-      "agente": "Continua"
+      "agente": "Continua",
+      "tecnica": " "
     },
     {
       "id": 25,
@@ -219,7 +247,8 @@
       "energia": "Energía Electrica",
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes sin Modular",
-      "agente": "BMAC"
+      "agente": "BMAC",
+      "tecnica": " "
     },
     {
       "id": 26,
@@ -257,7 +286,9 @@
       "campo": "Terapia",
       "energia": "Energía Electrica",
       "frecuencia": "Media Frecuencia",
-      "corriente": "Corrientes Moduladas"
+      "corriente": "Corrientes Moduladas",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 30,
@@ -266,7 +297,8 @@
       "energia": "Energía Electrica",
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes Moduladas",
-      "agente": "Corrientes Interferenciales"
+      "agente": "Corrientes Interferenciales",
+      "tecnica": " "
     },
     {
       "id": 31,
@@ -293,7 +325,10 @@
       "codigo": 113000,
       "campo": "Terapia",
       "energia": "Energía Electrica",
-      "frecuencia": "Alta Frecuencia"
+      "frecuencia": "Alta Frecuencia",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 34,
@@ -301,20 +336,29 @@
       "campo": "Terapia",
       "energia": "Energía Electrica",
       "frecuencia": "Alta Frecuencia",
-      "corriente": "Radiofrecuencia"
+      "corriente": "Radiofrecuencia",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 35,
       "codigo": 120000,
       "campo": "Terapia",
-      "energia": "Energía Electromagnética"
+      "energia": "Energía Electromagnética",
+      "frecuencia": " ",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 36,
       "codigo": 121000,
       "campo": "Terapia",
       "energia": "Energía Electromagnética",
-      "frecuencia": "Alta Frecuencia"
+      "frecuencia": "Alta Frecuencia",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 37,
@@ -322,7 +366,9 @@
       "campo": "Terapia",
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
-      "corriente": "Fototerapia"
+      "corriente": "Fototerapia",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 38,
@@ -331,7 +377,8 @@
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
       "corriente": "Fototerapia",
-      "agente": "Infrarrojos"
+      "agente": "Infrarrojos",
+      "tecnica": " "
     },
     {
       "id": 39,
@@ -340,7 +387,8 @@
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
       "corriente": "Fototerapia",
-      "agente": "LASER"
+      "agente": "LASER",
+      "tecnica": " "
     },
     {
       "id": 40,
@@ -369,7 +417,8 @@
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
       "corriente": "Fototerapia",
-      "agente": "LED"
+      "agente": "LED",
+      "tecnica": " "
     },
     {
       "id": 43,
@@ -377,7 +426,9 @@
       "campo": "Terapia",
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
-      "corriente": "MIcroondas"
+      "corriente": "MIcroondas",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 44,
@@ -385,7 +436,9 @@
       "campo": "Terapia",
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
-      "corriente": "Onda Corta"
+      "corriente": "Onda Corta",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 45,
@@ -394,7 +447,8 @@
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
       "corriente": "Onda Corta",
-      "agente": "Capacitiva"
+      "agente": "Capacitiva",
+      "tecnica": " "
     },
     {
       "id": 46,
@@ -403,7 +457,8 @@
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
       "corriente": "Onda Corta",
-      "agente": "Inductiva"
+      "agente": "Inductiva",
+      "tecnica": " "
     },
     {
       "id": 47,
@@ -411,7 +466,9 @@
       "campo": "Terapia",
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
-      "corriente": "Magnetoterapia"
+      "corriente": "Magnetoterapia",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 48,
@@ -420,7 +477,8 @@
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
       "corriente": "Magnetoterapia",
-      "agente": "Baja Intensidad"
+      "agente": "Baja Intensidad",
+      "tecnica": " "
     },
     {
       "id": 49,
@@ -429,7 +487,8 @@
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
       "corriente": "Magnetoterapia",
-      "agente": "Alta Intensidad"
+      "agente": "Alta Intensidad",
+      "tecnica": " "
     },
     {
       "id": 50,
@@ -477,20 +536,29 @@
       "campo": "Terapia",
       "energia": "Energía Electromagnética",
       "frecuencia": "Alta Frecuencia",
-      "corriente": "Hipertermia"
+      "corriente": "Hipertermia",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 55,
       "codigo": 130000,
       "campo": "Terapia",
-      "energia": "Energía Mecánica"
+      "energia": "Energía Mecánica",
+      "frecuencia": " ",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 56,
       "codigo": 131000,
       "campo": "Terapia",
       "energia": "Energía Mecánica",
-      "frecuencia": "Baja Frecuencia"
+      "frecuencia": "Baja Frecuencia",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 57,
@@ -498,7 +566,9 @@
       "campo": "Terapia",
       "energia": "Energía Mecánica",
       "frecuencia": "Baja Frecuencia",
-      "corriente": "Vibradores"
+      "corriente": "Vibradores",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 58,
@@ -507,7 +577,8 @@
       "energia": "Energía Mecánica",
       "frecuencia": "Baja Frecuencia",
       "corriente": "Vibradores",
-      "agente": "Manuales"
+      "agente": "Manuales",
+      "tecnica": " "
     },
     {
       "id": 59,
@@ -516,7 +587,8 @@
       "energia": "Energía Mecánica",
       "frecuencia": "Baja Frecuencia",
       "corriente": "Vibradores",
-      "agente": "Vibra3"
+      "agente": "Vibra3",
+      "tecnica": " "
     },
     {
       "id": 60,
@@ -524,7 +596,9 @@
       "campo": "Terapia",
       "energia": "Energía Mecánica",
       "frecuencia": "Baja Frecuencia",
-      "corriente": "Plataformas de Vibración"
+      "corriente": "Plataformas de Vibración",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 61,
@@ -532,14 +606,19 @@
       "campo": "Terapia",
       "energia": "Energía Mecánica",
       "frecuencia": "Baja Frecuencia",
-      "corriente": "Deep Oscilation"
+      "corriente": "Deep Oscilation",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 62,
       "codigo": 132000,
       "campo": "Terapia",
       "energia": "Energía Mecánica",
-      "frecuencia": "Media Frecuencia"
+      "frecuencia": "Media Frecuencia",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 63,
@@ -547,14 +626,19 @@
       "campo": "Terapia",
       "energia": "Energía Mecánica",
       "frecuencia": "Media Frecuencia",
-      "corriente": "Sonoforesis"
+      "corriente": "Sonoforesis",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 64,
       "codigo": 133000,
       "campo": "Terapia",
       "energia": "Energía Mecánica",
-      "frecuencia": "Alta Frecuencia"
+      "frecuencia": "Alta Frecuencia",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 65,
@@ -562,7 +646,9 @@
       "campo": "Terapia",
       "energia": "Energía Mecánica",
       "frecuencia": "Alta Frecuencia",
-      "corriente": "Ultrasonidos (Terapéuticos)"
+      "corriente": "Ultrasonidos (Terapéuticos)",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 66,
@@ -571,7 +657,8 @@
       "energia": "Energía Mecánica",
       "frecuencia": "Alta Frecuencia",
       "corriente": "Ultrasonidos (Terapéuticos)",
-      "agente": "Sonoforesis"
+      "agente": "Sonoforesis",
+      "tecnica": " "
     },
     {
       "id": 67,
@@ -580,7 +667,8 @@
       "energia": "Energía Mecánica",
       "frecuencia": "Alta Frecuencia",
       "corriente": "Ultrasonidos (Terapéuticos)",
-      "agente": "Terapia Combinada"
+      "agente": "Terapia Combinada",
+      "tecnica": " "
     },
     {
       "id": 68,
@@ -588,7 +676,9 @@
       "campo": "Terapia",
       "energia": "Energía Mecánica",
       "frecuencia": "Alta Frecuencia",
-      "corriente": "LIPUS"
+      "corriente": "LIPUS",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 69,
@@ -596,7 +686,9 @@
       "campo": "Terapia",
       "energia": "Energía Mecánica",
       "frecuencia": "Alta Frecuencia",
-      "corriente": "HIFUS"
+      "corriente": "HIFUS",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 70,
@@ -604,25 +696,39 @@
       "campo": "Terapia",
       "energia": "Energía Mecánica",
       "frecuencia": "Alta Frecuencia",
-      "corriente": "OPAF"
+      "corriente": "OPAF",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 71,
       "codigo": 200000,
-      "campo": "Diagnostico"
+      "campo": "Diagnostico",
+      "energia": " ",
+      "frecuencia": " ",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 72,
       "codigo": 210000,
       "campo": "Diagnostico",
-      "energia": "Energía Eléctrica"
+      "energia": "Energía Eléctrica",
+      "frecuencia": " ",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 73,
       "codigo": 211000,
       "campo": "Diagnostico",
       "energia": "Energía Eléctrica",
-      "frecuencia": "Baja Frecuencia"
+      "frecuencia": "Baja Frecuencia",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 74,
@@ -630,7 +736,9 @@
       "campo": "Diagnostico",
       "energia": "Energía Eléctrica",
       "frecuencia": "Baja Frecuencia",
-      "corriente": "Corriente Monofásicas"
+      "corriente": "Corriente Monofásicas",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 75,
@@ -639,7 +747,8 @@
       "energia": "Energía Eléctrica",
       "frecuencia": "Baja Frecuencia",
       "corriente": "Corriente Monofásicas",
-      "agente": "corriente Galvánica"
+      "agente": "corriente Galvánica",
+      "tecnica": " "
     },
     {
       "id": 76,
@@ -658,7 +767,8 @@
       "energia": "Energía Eléctrica",
       "frecuencia": "Baja Frecuencia",
       "corriente": "Corriente Monofásicas",
-      "agente": "Curvas IT/AT (Impulsos Aislados)"
+      "agente": "Curvas IT/AT (Impulsos Aislados)",
+      "tecnica": " "
     },
     {
       "id": 78,
@@ -684,14 +794,21 @@
       "id": 80,
       "codigo": 220000,
       "campo": "Diagnostico",
-      "energia": "Energía Mecánica"
+      "energia": "Energía Mecánica",
+      "frecuencia": " ",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 81,
       "codigo": 221000,
       "campo": "Diagnostico",
       "energia": "Energía Mecánica",
-      "frecuencia": "Baja Frecuencia"
+      "frecuencia": "Baja Frecuencia",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 82,
@@ -699,14 +816,19 @@
       "campo": "Diagnostico",
       "energia": "Energía Mecánica",
       "frecuencia": "Baja Frecuencia",
-      "corriente": "Vibradores"
+      "corriente": "Vibradores",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 83,
       "codigo": 222000,
       "campo": "Diagnostico",
       "energia": "Energía Mecánica",
-      "frecuencia": "Alta Frecuancia"
+      "frecuencia": "Alta Frecuancia",
+      "corriente": " ",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 84,
@@ -714,7 +836,9 @@
       "campo": "Diagnostico",
       "energia": "Energía Mecánica",
       "frecuencia": "Alta Frecuancia",
-      "corriente": "Ultrasonidos (Terapéuticos)"
+      "corriente": "Ultrasonidos (Terapéuticos)",
+      "agente": " ",
+      "tecnica": " "
     },
     {
       "id": 85,
@@ -723,7 +847,8 @@
       "energia": "Energía Mecánica",
       "frecuencia": "Alta Frecuancia",
       "corriente": "Ultrasonidos (Terapéuticos)",
-      "agente": "Terapia Combinada"
+      "agente": "Terapia Combinada",
+      "tecnica": " "
     },
     {
       "id": 86,
@@ -731,15 +856,9 @@
       "campo": "Diagnostico",
       "energia": "Energía Mecánica",
       "frecuencia": "Alta Frecuancia",
-      "corriente": "Ecografía"
-    },
-    {
-      "id": 105,
-      "codigo": 11119999999,
-      "campo": "Terapia",
-      "energia": "Energía ",
-      "frecuencia": " Frecuencia",
-      "corriente": "corriente "
+      "corriente": "Ecografía",
+      "agente": " ",
+      "tecnica": " "
     }
   ]
 }
