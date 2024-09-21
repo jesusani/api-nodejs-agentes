@@ -11,6 +11,7 @@ export const getAgenteByCampo = (req, res) => {
     const agentes = getConnectionAgentes().data.agentes;
     if (!q) return res.status(404).send({ error: 'Debe proporcionar una palabra de búsqueda en el parámetro `q`' });
     if (!agentes) return res.sendStatus(404);  
+    
  
     const filteredAgentes = agentes.filter(agente => 
       

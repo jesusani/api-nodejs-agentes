@@ -3,7 +3,8 @@ import express from 'express';
 
 
 var router = express.Router();
-import { getAgentes, getAgenteById, createAgente, updateAgente, deleteAgente, countAgentes, getAgenteByCampo, getAgenteByCodigo} from '../controllers/agentesController.js';
+import { getAgentes, getAgenteById, createAgente, updateAgente, deleteAgente, countAgentes, getAgenteByCampo, getAgenteByCodigo }
+    from '../controllers/AgentesController.js';
 
 router.get('/', getAgentes);
 router.get('/count', countAgentes);
