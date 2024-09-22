@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon ./index.js --ignore ./src/db.json  --ignore ./src/agentes.json" ,
+    "dev": "nodemon ./index.js --ignore ./src/db.json  --ignore ./src/agentes.json" ,
+    "start": "node ./index.js " ,
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
