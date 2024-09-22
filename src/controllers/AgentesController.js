@@ -6,6 +6,7 @@ export const getAgenteById = (req, res) => {
     if (!agente) return res.sendStatus(404);
     res.json(agente);
 };
+
 export const getAgenteByCampo = (req, res) => {
     const { q } = req.query;  // Captura el parámetro 'q' de la query string
     const agentes = getConnectionAgentes().data.agentes;
@@ -30,7 +31,7 @@ export const getAgenteByCampo = (req, res) => {
 export const getAgenteByCodigo = (req, res) => {
     const { codigo } = req.query;  // Captura el parámetro 'q' de la query string
     const agentes = getConnectionAgentes().data.agentes;
-    if (!codigo) return res.status(404).send({ error: 'Debe proporcionar una palabra de búsqueda en el parámetro `q`' });
+    if (!codigo) return res.status(404).send({ error: 'Debe proporcionar una palabra de búsqueda en el parámetro `código`' });
     if (!agentes) return res.sendStatus(404);  
     const codigoNumber = parseInt(codigo);
 
@@ -50,7 +51,8 @@ export const getAgentes = (req, res) => {
 
 export const countAgentes = (req, res) => {
     const count = getConnectionAgentes().data.agentes.length;
-    res.json(count);
+    const cuenta = {  "total": count };
+    res.json(cuenta);
 };
 
 export const createAgente = async (req, res) => {
