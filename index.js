@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 
 const port = process.env.PORT || 3000  // establecemos nuestro puerto
-createConnection();   
+
 createConnectionAgentes();    
 
 // nuestra ruta irá en http://localhost:3080/api1
