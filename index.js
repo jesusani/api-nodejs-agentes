@@ -3,7 +3,6 @@ import cors from 'cors';
 import express from 'express';
 
 import router from './src/routes/index.js';
-import {createConnection} from './src/database.js';
 import {createConnectionAgentes} from './src/dbagentes.js';
 
 
