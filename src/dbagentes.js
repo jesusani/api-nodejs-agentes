@@ -1,4 +1,3 @@
-import { Low } from 'lowdb';
 import { JSONFilePreset } from 'lowdb/node';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url'; 
