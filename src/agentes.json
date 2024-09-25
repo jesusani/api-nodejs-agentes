@@ -8,7 +8,16 @@
       "frecuencia": " ",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 2,
@@ -18,7 +27,16 @@
       "frecuencia": " ",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 3,
@@ -28,7 +46,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 4,
@@ -38,7 +65,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 5,
@@ -48,7 +84,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "Corriente Galvánica",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 6,
@@ -58,7 +103,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "Corriente Galvánica",
-      "tecnica": "Iontoforesis"
+      "Tecnica": "Iontoforesis",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 7,
@@ -68,7 +122,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "Corriente Galvánica",
-      "tecnica": "Electrolisis Percutánea"
+      "Tecnica": "Electrolisis Percutánea",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 8,
@@ -78,7 +141,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "Corriente Galvánica",
-      "tecnica": "tDCS"
+      "Tecnica": "tDCS",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 9,
@@ -88,7 +160,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "Corriente Galvánica",
-      "tecnica": "Galvano-Palpación"
+      "Tecnica": "Galvano-Palpación",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 10,
@@ -98,7 +179,15 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "corrientes con componente Galvánico",
-      "tecnica": " "
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 11,
@@ -108,7 +197,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "corrientes con componente Galvánico",
-      "tecnica": "Corriente de Trabert"
+      "Tecnica": "Corriente de Trabert",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 12,
@@ -118,7 +216,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "corrientes con componente Galvánico",
-      "tecnica": "Corrientes Diadinámicas"
+      "Tecnica": "Corrientes Diadinámicas",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 13,
@@ -128,7 +235,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "corrientes con componente Galvánico",
-      "tecnica": "Corriente de Leduc"
+      "Tecnica": "Corriente de Leduc",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 14,
@@ -138,7 +254,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "corrientes con componente Galvánico",
-      "tecnica": "Corrientes de Alto Voltaje"
+      "Tecnica": "Corrientes de Alto Voltaje",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 15,
@@ -148,7 +273,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "Impulsos Aislados",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 16,
@@ -158,7 +292,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "Impulsos Aislados",
-      "tecnica": "Impulsos Cuadrangulares"
+      "Tecnica": "Impulsos Cuadrangulares",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 17,
@@ -168,7 +311,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Monofásica",
       "agente": "Impulsos Aislados",
-      "tecnica": "Impulsos Triangulares"
+      "Tecnica": "Impulsos Triangulares",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 18,
@@ -178,7 +330,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Bifásica",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 19,
@@ -188,7 +349,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Bifásica",
       "agente": "TENS",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 20,
@@ -198,7 +368,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Bifásica",
       "agente": "NMES",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 21,
@@ -208,7 +387,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "corriente Bifásica",
       "agente": "Microcorrientes",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 22,
@@ -218,7 +406,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 23,
@@ -228,7 +425,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes sin Modular",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 24,
@@ -238,7 +444,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes sin Modular",
       "agente": "Continua",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 25,
@@ -248,7 +463,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes sin Modular",
       "agente": "BMAC",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 26,
@@ -258,7 +482,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes sin Modular",
       "agente": "BMAC",
-      "tecnica": "Corriente MegaA"
+      "Tecnica": "Corriente MegaA",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 27,
@@ -268,7 +501,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes sin Modular",
       "agente": "BMAC",
-      "tecnica": "Corriente de Kotz"
+      "Tecnica": "Corriente de Kotz",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 28,
@@ -278,7 +520,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes sin Modular",
       "agente": "BMAC",
-      "tecnica": "Corrientes Aussie"
+      "Tecnica": "Corrientes Aussie",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 29,
@@ -288,7 +539,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes Moduladas",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 30,
@@ -298,7 +558,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes Moduladas",
       "agente": "Corrientes Interferenciales",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 31,
@@ -308,7 +577,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes Moduladas",
       "agente": "Corrientes Interferenciales",
-      "tecnica": "Corrientes IF Tetrapolares"
+      "Tecnica": "Corrientes IF Tetrapolares",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 32,
@@ -318,7 +596,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Corrientes Moduladas",
       "agente": "Corrientes Interferenciales",
-      "tecnica": "Corrientes IF Bipolares"
+      "Tecnica": "Corrientes IF Bipolares",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 33,
@@ -328,7 +615,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 34,
@@ -338,17 +634,34 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Radiofrecuencia",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 35,
       "codigo": 120000,
       "campo": "Terapia",
       "energia": "Energía Electromagnética",
-      "frecuencia": " ",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 36,
@@ -358,7 +671,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 37,
@@ -368,7 +690,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Fototerapia",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 38,
@@ -378,7 +709,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Fototerapia",
       "agente": "Infrarrojos",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 39,
@@ -388,7 +728,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Fototerapia",
       "agente": "LASER",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 40,
@@ -398,7 +747,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Fototerapia",
       "agente": "LASER",
-      "tecnica": "Baja Intesidad"
+      "Tecnica": "Baja Intesidad",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 41,
@@ -408,7 +766,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Fototerapia",
       "agente": "LASER",
-      "tecnica": "Alta Intensidad"
+      "Tecnica": "Alta Intensidad",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 42,
@@ -418,7 +785,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Fototerapia",
       "agente": "LED",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 43,
@@ -428,7 +804,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "MIcroondas",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 44,
@@ -438,7 +823,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Onda Corta",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 45,
@@ -448,7 +842,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Onda Corta",
       "agente": "Capacitiva",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 46,
@@ -458,7 +861,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Onda Corta",
       "agente": "Inductiva",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 47,
@@ -468,7 +880,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Magnetoterapia",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 48,
@@ -478,7 +899,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Magnetoterapia",
       "agente": "Baja Intensidad",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 49,
@@ -488,7 +918,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Magnetoterapia",
       "agente": "Alta Intensidad",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 50,
@@ -498,7 +937,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Magnetoterapia",
       "agente": "Alta Intensidad",
-      "tecnica": "Sistemas INductivos"
+      "Tecnica": "Sistemas INductivos",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 51,
@@ -508,7 +956,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Magnetoterapia",
       "agente": "Alta Intensidad",
-      "tecnica": "Diamagnetoterapia"
+      "Tecnica": "Diamagnetoterapia",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 52,
@@ -518,7 +975,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Magnetoterapia",
       "agente": "Alta Intensidad",
-      "tecnica": "RMN Terapéutica"
+      "Tecnica": "RMN Terapéutica",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 53,
@@ -528,7 +994,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Magnetoterapia",
       "agente": "Alta Intensidad",
-      "tecnica": "rTMS"
+      "Tecnica": "rTMS",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 54,
@@ -538,17 +1013,34 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Hipertermia",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 55,
       "codigo": 130000,
       "campo": "Terapia",
       "energia": "Energía Mecánica",
-      "frecuencia": " ",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 56,
@@ -558,7 +1050,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 57,
@@ -568,7 +1069,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Vibradores",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 58,
@@ -578,7 +1088,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Vibradores",
       "agente": "Manuales",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 59,
@@ -588,7 +1107,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Vibradores",
       "agente": "Vibra3",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 60,
@@ -598,7 +1126,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Plataformas de Vibración",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 61,
@@ -608,7 +1145,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Deep Oscilation",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 62,
@@ -618,7 +1164,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 63,
@@ -628,7 +1183,16 @@
       "frecuencia": "Media Frecuencia",
       "corriente": "Sonoforesis",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 64,
@@ -638,7 +1202,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 65,
@@ -648,7 +1221,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Ultrasonidos (Terapéuticos)",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 66,
@@ -658,7 +1240,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Ultrasonidos (Terapéuticos)",
       "agente": "Sonoforesis",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 67,
@@ -668,7 +1259,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "Ultrasonidos (Terapéuticos)",
       "agente": "Terapia Combinada",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 68,
@@ -678,7 +1278,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "LIPUS",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 69,
@@ -688,7 +1297,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "HIFUS",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 70,
@@ -698,7 +1316,16 @@
       "frecuencia": "Alta Frecuencia",
       "corriente": "OPAF",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 71,
@@ -708,17 +1335,34 @@
       "frecuencia": " ",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 72,
       "codigo": 210000,
       "campo": "Diagnostico",
       "energia": "Energía Eléctrica",
-      "frecuencia": " ",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 73,
@@ -728,7 +1372,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 74,
@@ -738,7 +1391,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Corriente Monofásicas",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 75,
@@ -748,7 +1410,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Corriente Monofásicas",
       "agente": "corriente Galvánica",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 76,
@@ -758,7 +1429,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Corriente Monofásicas",
       "agente": "corriente Galvánica",
-      "tecnica": "Galvano-Palpación"
+      "Tecnica": "Galvano-Palpación",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 77,
@@ -768,7 +1448,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Corriente Monofásicas",
       "agente": "Curvas IT/AT (Impulsos Aislados)",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 78,
@@ -778,7 +1467,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Corriente Monofásicas",
       "agente": "Curvas IT/AT (Impulsos Aislados)",
-      "tecnica": "Impulsos Cuadrangulares"
+      "Tecnica": "Impulsos Cuadrangulares",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 79,
@@ -788,7 +1486,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Corriente Monofásicas",
       "agente": "Curvas IT/AT (Impulsos Aislados)",
-      "tecnica": "Impulsos Triangulares"
+      "Tecnica": "Impulsos Triangulares",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 80,
@@ -798,7 +1505,16 @@
       "frecuencia": " ",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 81,
@@ -808,7 +1524,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 82,
@@ -818,7 +1543,16 @@
       "frecuencia": "Baja Frecuencia",
       "corriente": "Vibradores",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 83,
@@ -828,7 +1562,16 @@
       "frecuencia": "Alta Frecuancia",
       "corriente": " ",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 84,
@@ -838,7 +1581,16 @@
       "frecuencia": "Alta Frecuancia",
       "corriente": "Ultrasonidos (Terapéuticos)",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 85,
@@ -848,7 +1600,16 @@
       "frecuencia": "Alta Frecuancia",
       "corriente": "Ultrasonidos (Terapéuticos)",
       "agente": "Terapia Combinada",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     },
     {
       "id": 86,
@@ -858,7 +1619,16 @@
       "frecuencia": "Alta Frecuancia",
       "corriente": "Ecografía",
       "agente": " ",
-      "tecnica": " "
+      "Tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
     }
   ]
 }

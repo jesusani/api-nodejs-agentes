@@ -9,6 +9,7 @@ export const getUserById = (req, res) => {
 
 export const getUsers = (req, res) => {
     const db = getConnection();
+    console.log(db.data.users);
     res.json(db.data.users);
 };
 
@@ -21,9 +22,11 @@ export const createUser = async (req, res) => {
     try {
         const db = getConnection();
         const newUser = {
-            "id": 1,
+            "id": 100,
             "name": req.body.name,
-            "descripcion": req.body.description
+            "email": req.body.email,
+            "password": req.body.password,
+            "rol": req.body.rol
         }
 
         db.data.users.push(newUser);

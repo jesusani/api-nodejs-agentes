@@ -64,11 +64,16 @@ authRouter.post('/login', async (req, res) => {
 
         if (!passwordMatch) {
             return res.status(401).json({ error: 'Authentication failed password' });
-        }
+        } else {
         const token = jwt.sign({ userId: user.id }, secret, {
             expiresIn: '1h',
         });
-        res.status(200).json({ token });
+      const rol =user.rol;
+
+        res.status(200).json({  
+            token, password, username, rol });
+        }
+
     } catch (error) {
         res.status(500).json({ error: 'Login failed' });
     }

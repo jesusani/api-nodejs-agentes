@@ -9,6 +9,7 @@ export const getCervezaById = (req, res) => {
 
 export const getCervezas = (req, res) => {
     const db = getConnection();
+    console.log(db.data.cervezas);
     res.json(db.data.cervezas);
 };
 
