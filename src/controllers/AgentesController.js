@@ -16,12 +16,18 @@ export const getAgenteByCampo = (req, res) => {
  
     const filteredAgentes = agentes.filter(agente => 
       
-       agente.energia.toLowerCase().includes(q.toLowerCase())  || 
+        agente.energia.toLowerCase().includes(q.toLowerCase())  || 
         agente.campo.toLowerCase().includes(q.toLowerCase()) || 
         agente.corriente.toLowerCase().includes(q.toLowerCase()) || 
         agente.agente.toLowerCase().includes(q.toLowerCase())|| 
         agente.tecnica.toLowerCase().includes(q.toLowerCase())|| 
-        agente.frecuencia.toLowerCase().includes(q.toLowerCase())
+        agente.frecuencia.toLowerCase().includes(q.toLowerCase())|| 
+       agente.patologia.toLowerCase().includes(q.toLowerCase())  || 
+       agente.indicaciones.toLowerCase().includes(q.toLowerCase()) || 
+       agente.contraindicaciones.toLowerCase().includes(q.toLowerCase()) || 
+       agente.equipos.toLowerCase().includes(q.toLowerCase())|| 
+       agente.tendencia.toLowerCase().includes(q.toLowerCase())|| 
+       agente.legal.toLowerCase().includes(q.toLowerCase())
       );
 
     if (!filteredAgentes) return res.sendStatus(404);  
@@ -51,22 +57,34 @@ export const getAgentes = (req, res) => {
 
 export const countAgentes = (req, res) => {
     const count = getConnectionAgentes().data.agentes.length;
-    const cuenta = {  "total": count };
+    const cuenta = { count };
     res.json(cuenta);
 };
 
 export const createAgente = async (req, res) => {
     try {
+        const count = getConnectionAgentes().data.agentes.length;
+ 
         const db = getConnectionAgentes();
         const newagente = {
-            "id": req.body.id,
+            "id": count+1,
             "codigo": req.body.codigo,
             "campo": req.body.campo,
             "energia": req.body.energia,
             "frecuencia": req.body.frecuencia,
             "corriente": req.body.corriente,
             "tecnica": req.body.tecnica,
-            "agente": req.body.agente
+            "agente": req.body.agente,
+            "tendencia": req.body.tendencia,  
+            "patologias": req.body.patologias,
+            "protocolos": req.body.protocolos,
+            "evidencia": req.body.evidencia,  
+            "legal": req.body.legal,  
+            "consentimiento": req.body.consentimiento,  
+            "indicaciones": req.body.indicaciones,  
+            "contraindicaciones": req.body.contraindicaciones,  
+            "equipos": req.body.equipos
+
         }
 
         db.data.agentes.push(newagente);
