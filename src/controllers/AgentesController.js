@@ -10,9 +10,9 @@ export const getAgenteById = (req, res) => {
 export const getAgenteByCampo = (req, res) => {
     const { q } = req.query;  // Captura el parámetro 'q' de la query string
     const agentes = getConnectionAgentes().data.agentes;
-    if (!q) return res.status(404).send({ error: 'Debe proporcionar una palabra de búsqueda en el parámetro `q`' });
+  
     if (!agentes) return res.sendStatus(404);  
-    
+      if (!q)  res.json(agentes);
  
     const filteredAgentes = agentes.filter(agente => 
       
