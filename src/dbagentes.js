@@ -21,4 +21,5 @@ export async function createConnectionAgentes() {
 }
 
 export const getConnectionAgentes= () => db;
+export const getConnectionTecnicas= () => db;
 

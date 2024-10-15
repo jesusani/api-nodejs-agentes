@@ -1630,5 +1630,26 @@
       "contraindicaciones": " ",
       "equipos": " "
     }
+  ],
+  "tecnicas": [
+    {
+      "id": 86,
+      "codigo": 222200,
+      "campo": "Diagnostico",
+      "energia": "Energía Mecánica",
+      "frecuencia": "Alta Frecuancia",
+      "corriente": "Ecografía",
+      "agente": " ",
+      "tecnica": " ",
+      "patologias": " ",
+      "protocolos": " ",
+      "evidencia": " ",
+      "tendencia": " ",
+      "legal": " ",
+      "consentimiento": " ",
+      "indicaciones": " ",
+      "contraindicaciones": " ",
+      "equipos": " "
+    }
   ]
 }
