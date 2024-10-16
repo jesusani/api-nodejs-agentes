@@ -1,0 +1,63 @@
+{
+    "TENS (Transcutaneous Electrical Nerve Stimulation)": {
+        "Description": "Uses low-frequency currents to relieve pain. Electrodes are placed on the skin in the affected area, and the current stimulates nerves, blocking pain signals and releasing endorphins.",
+        "Indications": [
+            "Acute pain",
+            "Chronic pain",
+            "Muscle and joint injuries"
+        ]
+    },
+    "EMS (Electrical Muscle Stimulation)": {
+        "Description": "Applies electrical currents to provoke muscle contractions. It is used to strengthen weakened muscles, prevent muscle atrophy, and improve circulation.",
+        "Indications": [
+            "Post-surgical recovery",
+            "Muscle atrophy",
+            "Sports injuries"
+        ]
+    },
+    "Interferential Currents": {
+        "Description": "Uses two medium-frequency currents that intersect in the affected area, producing an interference that stimulates deeper tissues.",
+        "Benefits": [
+            "Pain relief",
+            "Reduces inflammation",
+            "Improves circulation"
+        ],
+        "Indications": [
+            "Lower back pain",
+            "Cervical pain",
+            "Chronic pain"
+        ]
+    },
+    "Galvanic Currents": {
+        "Description": "Uses continuous low-intensity currents to treat inflammation and stimulate blood circulation. Effective for edema treatment.",
+        "Indications": [
+            "Ulcer treatment",
+            "Soft tissue stimulation",
+            "Muscle injuries"
+        ]
+    },
+    "Therapeutic Ultrasound": {
+        "Description": "Emits high-frequency sound waves to heat deep tissues and promote cell regeneration. Often used alongside electrotherapy.",
+        "Indications": [
+            "Tendinitis",
+            "Bursitis",
+            "Muscle contractures"
+        ]
+    },
+    "High-Frequency Currents (Microwave and Shortwave)": {
+        "Description": "Uses high-frequency waves to heat deep tissues, improve circulation, and reduce pain.",
+        "Indications": [
+            "Arthritis",
+            "Muscle contractures",
+            "Tendinitis"
+        ]
+    },
+    "Iontophoresis": {
+        "Description": "Uses continuous currents to introduce medications into the body through the skin. Useful for reducing inflammation and relieving localized pain.",
+        "Indications": [
+            "Localized inflammation",
+            "Joint injuries",
+            "Tendinitis"
+        ]
+    }
+}

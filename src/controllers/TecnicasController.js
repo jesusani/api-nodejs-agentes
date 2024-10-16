@@ -12,9 +12,10 @@ export const getTecnicaById = (req, res) => {
 export const getTecnicaByCampo = (req, res) => {
   const { q } = req.query; // Captura el parámetro 'q' de la query string
   const tecnicas = getConnectionTecnicas().data.tecnicas;
-
-  if (!tecnicas) return res.sendStatus(404);
-  if (!q) {
+ 
+  if (!tecnicas) {
+    return res.sendStatus(404);
+  }else if (!q) {
     res.json(tecnicas);
   } else {
     const filteredTecnicas = tecnicas.filter(
@@ -25,17 +26,23 @@ export const getTecnicaByCampo = (req, res) => {
         tecnica.tecnica.toLowerCase().includes(q.toLowerCase()) ||
         tecnica.tecnica.toLowerCase().includes(q.toLowerCase()) ||
         tecnica.frecuencia.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.patologia.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.indicaciones.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.contraindicaciones.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.equipos.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.patologias.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.indicacion.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.contraindicacion.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.equipo.toLowerCase().includes(q.toLowerCase()) ||
         tecnica.tendencia.toLowerCase().includes(q.toLowerCase()) ||
         tecnica.legal.toLowerCase().includes(q.toLowerCase())
     );
+
+    if (!filteredTecnicas) {
+      return res.sendStatus(404);
+    } else{
+      res.json(filteredTecnicas);
+    }
   }
 
-  if (!filteredTecnicas) return res.sendStatus(404);
-  res.json(filteredTecnicas);
+ 
+  
 };
 
 export const getTecnicaByCodigo = (req, res) => {
@@ -86,14 +93,14 @@ export const createTecnica = async (req, res) => {
       tecnica: req.body.tecnica,
       tecnica: req.body.tecnica,
       tendencia: req.body.tendencia,
-      patologias: req.body.patologias,
-      protocolos: req.body.protocolos,
+      patologia: req.body.patologia,
+      protocolo: req.body.protocolo,
       evidencia: req.body.evidencia,
       legal: req.body.legal,
       consentimiento: req.body.consentimiento,
-      indicaciones: req.body.indicaciones,
-      contraindicaciones: req.body.contraindicaciones,
-      equipos: req.body.equipos,
+      indicacion: req.body.indicacion,
+      contraindicacion: req.body.contraindicacion,
+      equipo: req.body.equipo,
     };
 
     db.data.tecnicas.push(newtecnica);
