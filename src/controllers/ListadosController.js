@@ -16,8 +16,10 @@ export const getTecnica = (req, res) => {
         console.log('Técnicas de electroterapia disponibles:');
         tecnicas.forEach((tecnica, index) => {
           console.log(`${index + 1}. ${tecnica}`);
-          res.json(db.data.tecnica);
-        });
+         
+        }
+       
+    ); res.json(db.data.tecnica);
       } else {
         console.log('No se encontraron técnicas en la base de datos.');
       }

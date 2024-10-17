@@ -1875,33 +1875,52 @@
     "Iontoforesis"
   ],
   "agente": [
-    {}
+    "TENS",
+    "Vibradores",
+    "Vibra3",
+    "Infrarrojos",
+    "Interferenciales Tetrapolares",
+    "BMAC",
+    "Corrientes Aussie",
+    "Corrientes Kotz",
+    "Corrientes MegaA",
+    "Interferenciales Bipolares",
+    "Microcorrientes",
+    "NMES",
+    "Corrientes de Alto Voltaje",
+    "Corriente de Leduc",
+    "Corrientes Diadinámicas",
+    "Corriente de Trabert",
+    "Galvano-Palpación",
+    "tDCS",
+    "Electrolisis Percutánea",
+    "Iontoforesis"
   ],
   "equipos": [
-    {}
+    "equipo"
   ],
   "patologias": [
-    {}
+    "patologia"
   ],
   "indicaciones": [
-    {}
+    "indicacion"
   ],
   "contraindicaciones": [
-    {}
+    "contraindicacion"
   ],
   "protocolos": [
-    {}
+    "protocolo"
   ],
   "evidencias": [
-    {}
+    "evidencia"
   ],
   "legales": [
-    {}
+    "legal"
   ],
   "consentimientos": [
-    {}
+    "consentimiento"
   ],
   "tendencias": [
-    {}
+    "tendencia"
   ]
 }
