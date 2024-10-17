@@ -20,19 +20,19 @@ export const getTecnicaByCampo = (req, res) => {
   } else {
     const filteredTecnicas = tecnicas.filter(
       (tecnica) =>
-        tecnica.energia.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.campo.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.corriente.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.tecnica.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.tecnica.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.frecuencia.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.patologias.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.indicacion.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.contraindicacion.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.equipo.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.tendencia.toLowerCase().includes(q.toLowerCase()) ||
-        tecnica.legal.toLowerCase().includes(q.toLowerCase())
+        tecnica.energia?.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.campo?.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.corriente?.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.tecnica?.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.frecuencia?.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.patologia?.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.indicacion?.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.contraindicacion?.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.equipo?.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.tendencia?.toLowerCase().includes(q.toLowerCase()) ||
+        tecnica.legal?.toLowerCase().includes(q.toLowerCase())
     );
+    
 
     if (!filteredTecnicas) {
       return res.sendStatus(404);

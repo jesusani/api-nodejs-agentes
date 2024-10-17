@@ -1652,7 +1652,7 @@
   ],
   "tecnicas": [
     {
-      "id": 86,
+      "id": 1,
       "codigo": 222200,
       "campo": "Diagnostico",
       "energia": "Energía Mecánica",
@@ -1690,7 +1690,7 @@
     },
     {
       "id": 3,
-      "codigo": 123456,
+      "codigo": 12456,
       "campo": "capo",
       "energia": "Energía",
       "frecuencia": "Frecuancia",
@@ -1698,7 +1698,7 @@
       "tecnica": " tecbica",
       "tendencia": " tede",
       "patologias": " patolo",
-      "protocolos": " proto",
+      "protocolos": " prtresoto",
       "evidencia": "evide ",
       "legal": " legal",
       "consentimiento": "coset ",
@@ -1875,33 +1875,36 @@
     "Iontoforesis"
   ],
   "agente": [
-    {}
+    "RMN Terapéutica",
+    "tDCS",
+    "Electrolisis Percutánea",
+    "Iontoforesis"
   ],
   "equipos": [
-    {}
+    "equipo"
   ],
   "patologias": [
-    {}
+    "patologia"
   ],
   "indicaciones": [
-    {}
+    "indic"
   ],
   "contraindicaciones": [
-    {}
+    "contrain"
   ],
   "protocolos": [
-    {}
+    "protocol"
   ],
   "evidencias": [
-    {}
+    "evidencia"
   ],
   "legales": [
-    {}
+    "legal"
   ],
   "consentimientos": [
-    {}
+    "consent"
   ],
   "tendencias": [
-    {}
+    "tend"
   ]
 }

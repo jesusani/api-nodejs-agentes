@@ -4,7 +4,7 @@ import { getConnectionAgentes } from "../dbagentes.js";
 export const getListados = (req, res) => {
     const db = getConnectionAgentes();
     res.json(db.data);
-};
+};/*
 export const getAgente = (req, res) => {
     const db = getConnectionAgentes();
     res.json(db.data.agente);
@@ -75,4 +75,4 @@ export const getEvidencias = (req, res) => {
 export const getEquipos = (req, res) => {
     const db = getConnectionAgentes();
     res.json(db.data.equipos);
-};
+};*/
