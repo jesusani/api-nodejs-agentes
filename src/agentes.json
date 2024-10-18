@@ -1652,7 +1652,7 @@
   ],
   "tecnicas": [
     {
-      "id": 86,
+      "id": 1,
       "codigo": 222200,
       "campo": "Diagnostico",
       "energia": "Energía Mecánica",
@@ -1690,7 +1690,7 @@
     },
     {
       "id": 3,
-      "codigo": 123456,
+      "codigo": 12456,
       "campo": "capo",
       "energia": "Energía",
       "frecuencia": "Frecuancia",
@@ -1698,7 +1698,7 @@
       "tecnica": " tecbica",
       "tendencia": " tede",
       "patologias": " patolo",
-      "protocolos": " proto",
+      "protocolos": " prtresoto",
       "evidencia": "evide ",
       "legal": " legal",
       "consentimiento": "coset ",
@@ -1875,6 +1875,7 @@
     "Iontoforesis"
   ],
   "agente": [
+<<<<<<< HEAD
     "TENS",
     "Vibradores",
     "Vibra3",
@@ -1892,6 +1893,9 @@
     "Corrientes Diadinámicas",
     "Corriente de Trabert",
     "Galvano-Palpación",
+=======
+    "RMN Terapéutica",
+>>>>>>> d0b91672ce4cdd64859e1f98200a91ba7e42d826
     "tDCS",
     "Electrolisis Percutánea",
     "Iontoforesis"
@@ -1903,6 +1907,7 @@
     "patologia"
   ],
   "indicaciones": [
+<<<<<<< HEAD
     "indicacion"
   ],
   "contraindicaciones": [
@@ -1910,6 +1915,15 @@
   ],
   "protocolos": [
     "protocolo"
+=======
+    "indic"
+  ],
+  "contraindicaciones": [
+    "contrain"
+  ],
+  "protocolos": [
+    "protocol"
+>>>>>>> d0b91672ce4cdd64859e1f98200a91ba7e42d826
   ],
   "evidencias": [
     "evidencia"
@@ -1918,9 +1932,16 @@
     "legal"
   ],
   "consentimientos": [
+<<<<<<< HEAD
     "consentimiento"
   ],
   "tendencias": [
     "tendencia"
+=======
+    "consent"
+  ],
+  "tendencias": [
+    "tend"
+>>>>>>> d0b91672ce4cdd64859e1f98200a91ba7e42d826
   ]
 }
