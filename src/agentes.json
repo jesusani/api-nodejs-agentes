@@ -1697,13 +1697,13 @@
       "corriente": "corri",
       "tecnica": " tecbica",
       "tendencia": " tede",
-      "patologias": " patolo",
-      "protocolos": " prtresoto",
+      "patologia": " patolo",
+      "protocolo": " prtresoto",
       "evidencia": "evide ",
       "legal": " legal",
       "consentimiento": "coset ",
-      "indicaciones": " idica",
-      "contraindicaciones": "cotra ",
+      "indicacion": " idica",
+      "contraindicacion": "cotra ",
       "equipos": "qipo "
     }
   ],
