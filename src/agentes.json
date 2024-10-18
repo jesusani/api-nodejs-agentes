@@ -1875,7 +1875,6 @@
     "Iontoforesis"
   ],
   "agente": [
-<<<<<<< HEAD
     "TENS",
     "Vibradores",
     "Vibra3",
@@ -1893,9 +1892,7 @@
     "Corrientes Diadinámicas",
     "Corriente de Trabert",
     "Galvano-Palpación",
-=======
     "RMN Terapéutica",
->>>>>>> d0b91672ce4cdd64859e1f98200a91ba7e42d826
     "tDCS",
     "Electrolisis Percutánea",
     "Iontoforesis"
@@ -1907,7 +1904,6 @@
     "patologia"
   ],
   "indicaciones": [
-<<<<<<< HEAD
     "indicacion"
   ],
   "contraindicaciones": [
@@ -1915,15 +1911,6 @@
   ],
   "protocolos": [
     "protocolo"
-=======
-    "indic"
-  ],
-  "contraindicaciones": [
-    "contrain"
-  ],
-  "protocolos": [
-    "protocol"
->>>>>>> d0b91672ce4cdd64859e1f98200a91ba7e42d826
   ],
   "evidencias": [
     "evidencia"
@@ -1932,16 +1919,9 @@
     "legal"
   ],
   "consentimientos": [
-<<<<<<< HEAD
     "consentimiento"
   ],
   "tendencias": [
     "tendencia"
-=======
-    "consent"
-  ],
-  "tendencias": [
-    "tend"
->>>>>>> d0b91672ce4cdd64859e1f98200a91ba7e42d826
   ]
 }
